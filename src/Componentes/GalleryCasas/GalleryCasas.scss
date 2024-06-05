@@ -1,0 +1,74 @@
+.gale-casas{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0px;
+    margin: 110px -44px 100px 50px;
+    overflow-y: auto;
+    max-height: 434px;
+
+        img{
+    width: 170px;
+    height: 235px;
+    object-fit: contain;      
+    }
+
+
+}
+.name-casa{
+    position: relative;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 15px;
+    // opacity: 0;
+
+}
+
+.casa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;   
+
+
+}
+
+.card:hover .card-Name{
+    background-color:rgba(0, 0, 0 , 0.3);
+    opacity: 1;
+    height: 50px;
+
+
+}
+
+.buscador-casas{
+     display: flex;
+     margin-left: 70px; 
+     margin-top: 55px;    
+
+    img{
+        width: 25px;
+        height: 25px;  
+        margin-right: 15px;     
+
+    }
+
+    input{
+      background-color: black;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-top-style: hidden;
+      border-bottom-style: ridge;
+      font-size: 18px;
+      color: grey;
+    }
+}

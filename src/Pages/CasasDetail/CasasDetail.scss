@@ -1,0 +1,40 @@
+.img-casa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+    color: white;
+    font-size: 19px;
+}
+
+.img-casa img {
+    width: 308px;
+    height: 306px;
+}
+
+.inf-pd {
+    display: flex;
+    margin-bottom: 200px;
+    gap: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.inf-pd h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.inf-pd p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.escudo {
+    width: 166px;
+    height: 192px;
+    margin-top: -29px;
+}

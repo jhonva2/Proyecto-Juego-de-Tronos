@@ -1,0 +1,64 @@
+.img-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    color: white;
+    font-size: 13px;
+}
+
+.img-name img {
+    width: 100%;
+    max-width: 195px;
+    height: auto;
+    object-fit: contain;
+}
+
+.inf-dp {
+    display: flex;
+    margin-bottom: 200px;
+    gap: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    text-align: center;
+}
+
+.inf-dp li {
+    font-size: x-small;
+    text-align: center;
+}
+
+.inf-dp ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inf-dp h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.inf-dp p {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.escudo {
+    width: 147px;
+    height: 147px;
+    object-fit: contain;
+}
+
+.backBtn {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 55px;
+}
+
+.backBtn img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}

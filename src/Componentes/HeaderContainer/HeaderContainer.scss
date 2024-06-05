@@ -1,0 +1,27 @@
+.HeaderContainer {
+    position: fixed;
+    top: 30px;
+    right: -4%;
+    padding: 20px;
+    width: 25%;
+    height: 5%;
+}
+
+.headerC {
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    height: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.headerC a {
+    width: 10%;
+    height: 100%;
+}
+
+.headerC img {
+    width: auto;
+    height: 39px;
+}
